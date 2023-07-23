@@ -1,7 +1,7 @@
 import os
 from collections import Counter
 import urllib.request
-import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as ET  
 
 import requests
 from bs4 import BeautifulSoup
@@ -23,9 +23,10 @@ with open(tempfile) as f:
 
 def get_pybites_top_tags(n=10):
     tree = ET.parse(tempfile)
-    root = ET.fromstring(content)
-    categories = [c.text for c in root.iterfind('channel/item/category')]
-    c = Counter(categories)
+    root = ET.fromstring(content)  #can consolidate tree and root into one line: root = ET.fromstring('placeholder_content_variable'). This assumes etree imported as ET
+    #fromstring is a class method
+    categories = [c.text for c in root.iterfind('channel/item/category')] #iterfind is  method in ElementTree module, it finds elements in XML or HTML
+    c = Counter(categories) #note c is a different variable than c.text above in categories
     return c.most_common(n)
 print(get_pybites_top_tags(n=5))
 
