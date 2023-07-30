@@ -13,6 +13,7 @@ print(f'Page Title: {title}')
 
 
 
+
 '''<div id="all_team_stats" class="table_wrapper">
 
 <div class="section_heading assoc_team_stats" id="team_stats_sh">
