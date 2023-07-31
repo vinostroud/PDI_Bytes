@@ -20,7 +20,7 @@ first_row = trs_tags[0]
 #print(first_row)
 #print(first_row('th'))
 
-print(first_row.find_all('td'))  #returns empty list
+#print(first_row.find_all('td'))  #returns empty list
 
 
 '''
@@ -29,9 +29,9 @@ print(ths_tags[0])
 #print(len(ths_tags))
 '''
 
-week_header = soup.find_all('th', text = 'Week')
+week_header = soup.find_all('th', text = 'Week') 
 
-print(week_header)
+print(week_header) #prints out a lot of unformated gibberish
 
 
 
