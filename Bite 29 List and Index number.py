@@ -1,3 +1,14 @@
+'''instructions
+Complete get_index_different_char to meet this goal. It receives a chars list and returns an int index (zero-based).
+
+Just to be clear, alphanumeric == abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+
+Examples:
+['A', 'f', '.', 'Q', 2]  # returns index 2 (dot is non-alphanumeric among alphanumerics)
+['.', '{', ' ^', '%', 'a']  # returns index 4 ('a' is alphanumeric among non-alphanumerics)
+'''
+
+
 list_one = ['A', 'f', '.', 'Q', 2]
 list_two = ['.', '{', ' ^', '%', 'a']
 
