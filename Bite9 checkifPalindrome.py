@@ -29,18 +29,13 @@ word_three = 'Aibohphobia'
 word_two = 'PyBites'
 
 
-
-#print(word[::-1])
-
-#print(word.lower().strip())
-
 #this works
-def is_palindrome(word):
+def is_palindrome(word): #is_ should have hinted to return boolean
     sanitized_word = ''.join(char.lower() for char in word if char.isalnum())
-    if sanitized_word == sanitized_word[::-1]:
-        return word
-    else:
-        pass
+    return sanitized_word == sanitized_word[::-1] #now returns true or false
+  
+
+
 '''tests
 print(is_palindrome(word))
 print(is_palindrome(word_one))
