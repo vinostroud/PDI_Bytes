@@ -47,9 +47,6 @@ def time_between_shutdowns(loglines):
     shutdown_line_end = convert_to_datetime(shutdown_lines[-1])
     time_difference = shutdown_line_end - shutdown_line_start
     return time_difference
-    
-
-    
 
 print(time_between_shutdowns(loglines))
     
