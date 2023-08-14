@@ -19,8 +19,6 @@ with open(tempfile) as f:
     content = f.read().lower()
 
 
-
-
 def get_pybites_top_tags(n=10):
     tree = ET.parse(tempfile)
     root = ET.fromstring(content)  #can consolidate tree and root into one line: root = ET.fromstring('placeholder_content_variable'). This assumes etree imported as ET
