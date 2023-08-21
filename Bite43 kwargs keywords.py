@@ -6,7 +6,6 @@ def get_profile(*,name='julian', profession='programmer'):
 print(get_profile())
 
 '''
-This line defines a function named get_profile with the following parameters:
 *: The asterisk * here is used to indicate that all the following parameters must be keyword-only arguments. 
 Keyword-only arguments can only be passed using keyword syntax (e.g., name='Alice'), 
 and they cannot be passed positionally (e.g., 'Alice').
