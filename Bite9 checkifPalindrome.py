@@ -67,6 +67,15 @@ def get_longest_palindrome(words=None):
 
 print(get_longest_palindrome(words))
 
+
+'''
+#better way to do this:
+def get_longest_palindrome(words=None):
+    words = words or load_dictionary()
+    return max((palindrome for palindrome in [word for word in words if is_palindrome(word)]), key=lambda v: len(v))
+
+'''
+
     
     
 '''

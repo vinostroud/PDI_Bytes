@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_da05c7da5dc80128e9a1836df5c0cb9b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_da05c7da5dc80128e9a1836df5c0cb9b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_da05c7da5dc80128e9a1836df5c0cb9b = L.map(
+                "map_da05c7da5dc80128e9a1836df5c0cb9b",
+                {
+                    center: [32.2226, -110.9747],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_513b6e7480133153c15d818f1b8c1862 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+            var marker_e93e71688d6956621300cac9216cad66 = L.marker(
+                [31.6035, -94.6554],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_b72c28a486c3d738da00f4dbbb9c2b49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c32028c8579dd1dbf6f584cff49ffc73 = $(`<div id="html_c32028c8579dd1dbf6f584cff49ffc73" style="width: 100.0%; height: 100.0%;">1: Kid meets the Judge and Toadvine.</div>`)[0];
+                popup_b72c28a486c3d738da00f4dbbb9c2b49.setContent(html_c32028c8579dd1dbf6f584cff49ffc73);
+            
+        
+
+        marker_e93e71688d6956621300cac9216cad66.bindPopup(popup_b72c28a486c3d738da00f4dbbb9c2b49)
+        ;
+
+        
+    
+    
+            marker_e93e71688d6956621300cac9216cad66.bindTooltip(
+                `<div>
+                     Nacogdoches, Texas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c33c743c1c5553125faa8c9a32c9a36 = L.marker(
+                [29.4241, -98.4936],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_63ffa6e132b72cbe50ea382fc756f845 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e4a023e6a3d295b163f9495cf93a9da = $(`<div id="html_7e4a023e6a3d295b163f9495cf93a9da" style="width: 100.0%; height: 100.0%;">2: The Kid meets Sgt Captain White who wants to raid Sonora.</div>`)[0];
+                popup_63ffa6e132b72cbe50ea382fc756f845.setContent(html_7e4a023e6a3d295b163f9495cf93a9da);
+            
+        
+
+        marker_3c33c743c1c5553125faa8c9a32c9a36.bindPopup(popup_63ffa6e132b72cbe50ea382fc756f845)
+        ;
+
+        
+    
+    
+            marker_3c33c743c1c5553125faa8c9a32c9a36.bindTooltip(
+                `<div>
+                     Bexar, Texas (San Antonio)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a245a18ec09576b9551b7e8e8e453372 = L.marker(
+                [29.3551, -98.8786],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_c361105d92761b9a6fa363c72fe03268 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85574cd5ddb931a73d2ba467797604c0 = $(`<div id="html_85574cd5ddb931a73d2ba467797604c0" style="width: 100.0%; height: 100.0%;">3: First town Kid and Capt. White's filibusters pass through before soldiers start dying</div>`)[0];
+                popup_c361105d92761b9a6fa363c72fe03268.setContent(html_85574cd5ddb931a73d2ba467797604c0);
+            
+        
+
+        marker_a245a18ec09576b9551b7e8e8e453372.bindPopup(popup_c361105d92761b9a6fa363c72fe03268)
+        ;
+
+        
+    
+    
+            marker_a245a18ec09576b9551b7e8e8e453372.bindTooltip(
+                `<div>
+                     Castroville, Texas (west of San Antonio)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d6a70654ddc148fe54c11880590f8b7 = L.marker(
+                [27.0, -101.707],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_8c1ba75a801dd04ae02588e492c73e58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ae1f2dae13b40e00ea03ca60005972c = $(`<div id="html_4ae1f2dae13b40e00ea03ca60005972c" style="width: 100.0%; height: 100.0%;">4: Where the filibusters start dying from disease, then are annihilated by the Comanche.</div>`)[0];
+                popup_8c1ba75a801dd04ae02588e492c73e58.setContent(html_4ae1f2dae13b40e00ea03ca60005972c);
+            
+        
+
+        marker_6d6a70654ddc148fe54c11880590f8b7.bindPopup(popup_8c1ba75a801dd04ae02588e492c73e58)
+        ;
+
+        
+    
+    
+            marker_6d6a70654ddc148fe54c11880590f8b7.bindTooltip(
+                `<div>
+                     Plain of pumice stone (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74e0636adc4ef6f235ec41fbd7e50399 = L.marker(
+                [26.5, -103.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_2924302720007da0da29770392983049 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b5298e717c03d9f79d26a027d2b398e = $(`<div id="html_8b5298e717c03d9f79d26a027d2b398e" style="width: 100.0%; height: 100.0%;">5: Where Kid meets up with 8 survivors of the Comanche battle.</div>`)[0];
+                popup_2924302720007da0da29770392983049.setContent(html_8b5298e717c03d9f79d26a027d2b398e);
+            
+        
+
+        marker_74e0636adc4ef6f235ec41fbd7e50399.bindPopup(popup_2924302720007da0da29770392983049)
+        ;
+
+        
+    
+    
+            marker_74e0636adc4ef6f235ec41fbd7e50399.bindTooltip(
+                `<div>
+                     Bolson de Mapimi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ff395fbd23d4f46cbd3e2aa09413a38 = L.marker(
+                [27.0, -103.5],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_13b8145c62de3ccd2444d25225c167b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db4d18ae381e0e93ccca39d10919b268 = $(`<div id="html_db4d18ae381e0e93ccca39d10919b268" style="width: 100.0%; height: 100.0%;">6: Near to where Kid sees aftermath of Comanche massacre and is arrested.</div>`)[0];
+                popup_13b8145c62de3ccd2444d25225c167b4.setContent(html_db4d18ae381e0e93ccca39d10919b268);
+            
+        
+
+        marker_1ff395fbd23d4f46cbd3e2aa09413a38.bindPopup(popup_13b8145c62de3ccd2444d25225c167b4)
+        ;
+
+        
+    
+    
+            marker_1ff395fbd23d4f46cbd3e2aa09413a38.bindTooltip(
+                `<div>
+                     Small towns in chapter 5 (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dc2d74736d77de41b96299c0a328737 = L.marker(
+                [28.6353, -106.0889],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_9284bfda711d2132e48e5c81f023553b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7134aa31ab86a53288d7fe09167052c7 = $(`<div id="html_7134aa31ab86a53288d7fe09167052c7" style="width: 100.0%; height: 100.0%;">7: Gang is paid out (unwittingly) for scalps of Mexican soldiers. Then a bounty is issued for Galnton's head a week later.</div>`)[0];
+                popup_9284bfda711d2132e48e5c81f023553b.setContent(html_7134aa31ab86a53288d7fe09167052c7);
+            
+        
+
+        marker_1dc2d74736d77de41b96299c0a328737.bindPopup(popup_9284bfda711d2132e48e5c81f023553b)
+        ;
+
+        
+    
+    
+            marker_1dc2d74736d77de41b96299c0a328737.bindTooltip(
+                `<div>
+                     Chihuahua City, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eec64e2fb9bbb745361640f1c61840a6 = L.marker(
+                [28.5, -106.8],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_3fb24de721651e5fa6103a1406db3cf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b24d2a7ea72768be7a68baea3d2271fe = $(`<div id="html_b24d2a7ea72768be7a68baea3d2271fe" style="width: 100.0%; height: 100.0%;">8: Glanton's gang stays with the Governor, allows a magician family to trail them, and sees a massacre of Apaches.</div>`)[0];
+                popup_3fb24de721651e5fa6103a1406db3cf9.setContent(html_b24d2a7ea72768be7a68baea3d2271fe);
+            
+        
+
+        marker_eec64e2fb9bbb745361640f1c61840a6.bindPopup(popup_3fb24de721651e5fa6103a1406db3cf9)
+        ;
+
+        
+    
+    
+            marker_eec64e2fb9bbb745361640f1c61840a6.bindTooltip(
+                `<div>
+                     Corralitos, fictional town, and camp near Casas Grandes river (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c1ad642afcc58af01f1f654d089f180 = L.marker(
+                [31.433, -108.3833],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_367e78d9d9a8e98ddd595559484af9db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9406639680103b408e156eb3cbca21a5 = $(`<div id="html_9406639680103b408e156eb3cbca21a5" style="width: 100.0%; height: 100.0%;">9: Glanton shoots an Apache woman and Juan Miguel (McGill) scalps her. Nearby they find an Apache meat camp.</div>`)[0];
+                popup_367e78d9d9a8e98ddd595559484af9db.setContent(html_9406639680103b408e156eb3cbca21a5);
+            
+        
+
+        marker_5c1ad642afcc58af01f1f654d089f180.bindPopup(popup_367e78d9d9a8e98ddd595559484af9db)
+        ;
+
+        
+    
+    
+            marker_5c1ad642afcc58af01f1f654d089f180.bindTooltip(
+                `<div>
+                     Janos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f6b5530c919835b3c5f54c124eb5be0 = L.marker(
+                [32.7799, -106.3257],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_195f24c44b4f303617f2c6678c19c908 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deede23fa01ca48d5904cd9a8c30323b = $(`<div id="html_deede23fa01ca48d5904cd9a8c30323b" style="width: 100.0%; height: 100.0%;">10: Horses go blind from sunlight.</div>`)[0];
+                popup_195f24c44b4f303617f2c6678c19c908.setContent(html_deede23fa01ca48d5904cd9a8c30323b);
+            
+        
+
+        marker_2f6b5530c919835b3c5f54c124eb5be0.bindPopup(popup_195f24c44b4f303617f2c6678c19c908)
+        ;
+
+        
+    
+    
+            marker_2f6b5530c919835b3c5f54c124eb5be0.bindTooltip(
+                `<div>
+                     lake of gypsum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1744f700d97aa7c58cb87ac337791846 = L.marker(
+                [33.0, -107.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_2ba4f736cf8bc9cc6028de41db518bcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58cf884ffe82d47be2c8b13f875d01a9 = $(`<div id="html_58cf884ffe82d47be2c8b13f875d01a9" style="width: 100.0%; height: 100.0%;">11: Glanton gang finds four survivors of Apache attack and a young mute boy, who is later killed (presumably by the Judge).</div>`)[0];
+                popup_2ba4f736cf8bc9cc6028de41db518bcc.setContent(html_58cf884ffe82d47be2c8b13f875d01a9);
+            
+        
+
+        marker_1744f700d97aa7c58cb87ac337791846.bindPopup(popup_2ba4f736cf8bc9cc6028de41db518bcc)
+        ;
+
+        
+    
+    
+            marker_1744f700d97aa7c58cb87ac337791846.bindTooltip(
+                `<div>
+                     area near (presumed) San Andres Mountains (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50568477267743baf476c63c95719bb2 = L.marker(
+                [31.7799, -106.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_500afaa78b13b3584aab7b939592865e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c97f3d80f118ded39de488ff43095615 = $(`<div id="html_c97f3d80f118ded39de488ff43095615" style="width: 100.0%; height: 100.0%;">12: Massacre of the Gilenos.</div>`)[0];
+                popup_500afaa78b13b3584aab7b939592865e.setContent(html_c97f3d80f118ded39de488ff43095615);
+            
+        
+
+        marker_50568477267743baf476c63c95719bb2.bindPopup(popup_500afaa78b13b3584aab7b939592865e)
+        ;
+
+        
+    
+    
+            marker_50568477267743baf476c63c95719bb2.bindTooltip(
+                `<div>
+                     Villages of the Gillenos (estimated 120 miles south of gypsum)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a115d177cdb35feaaca777ba4e1ce37 = L.marker(
+                [30.0, -107.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_b438292a861ef7ef875673b85d45ad6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_954b1496a514c1a079443b05d7dba04c = $(`<div id="html_954b1496a514c1a079443b05d7dba04c" style="width: 100.0%; height: 100.0%;">13: Skirmishes with the Apaches before arriving in Chihuaha City.</div>`)[0];
+                popup_b438292a861ef7ef875673b85d45ad6d.setContent(html_954b1496a514c1a079443b05d7dba04c);
+            
+        
+
+        marker_2a115d177cdb35feaaca777ba4e1ce37.bindPopup(popup_b438292a861ef7ef875673b85d45ad6d)
+        ;
+
+        
+    
+    
+            marker_2a115d177cdb35feaaca777ba4e1ce37.bindTooltip(
+                `<div>
+                     Town of Gallego (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89a696d55f30cc7803d6a1f197640121 = L.marker(
+                [29.9119, -104.1551],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_c945548d9f567b13ea592d82ddaeceab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdfe661561322a3176aafb6e20570a12 = $(`<div id="html_fdfe661561322a3176aafb6e20570a12" style="width: 100.0%; height: 100.0%;">14: Gang stays for three days, all the while abusing the locals.</div>`)[0];
+                popup_c945548d9f567b13ea592d82ddaeceab.setContent(html_fdfe661561322a3176aafb6e20570a12);
+            
+        
+
+        marker_89a696d55f30cc7803d6a1f197640121.bindPopup(popup_c945548d9f567b13ea592d82ddaeceab)
+        ;
+
+        
+    
+    
+            marker_89a696d55f30cc7803d6a1f197640121.bindTooltip(
+                `<div>
+                     Coyame
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2750b4970982c3761e3b5750d77f28ab = L.marker(
+                [30.0, -106.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_539ed75f19837c1e9afe81a693904254 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbf67d07815e2e25e689c826f30fb285 = $(`<div id="html_cbf67d07815e2e25e689c826f30fb285" style="width: 100.0%; height: 100.0%;">15: Gang slaughters the Tiguas.</div>`)[0];
+                popup_539ed75f19837c1e9afe81a693904254.setContent(html_cbf67d07815e2e25e689c826f30fb285);
+            
+        
+
+        marker_2750b4970982c3761e3b5750d77f28ab.bindPopup(popup_539ed75f19837c1e9afe81a693904254)
+        ;
+
+        
+    
+    
+            marker_2750b4970982c3761e3b5750d77f28ab.bindTooltip(
+                `<div>
+                     Three days south of Hueco Tanks (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0080382e1a145fcff090a90f1ce4263 = L.marker(
+                [28.395, -105.3403],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_fec530213334e9fff119becb59d2d55d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5430d370116bd642eac54cc9a3dc80ce = $(`<div id="html_5430d370116bd642eac54cc9a3dc80ce" style="width: 100.0%; height: 100.0%;">16: Ruined town the gang passes through.</div>`)[0];
+                popup_fec530213334e9fff119becb59d2d55d.setContent(html_5430d370116bd642eac54cc9a3dc80ce);
+            
+        
+
+        marker_c0080382e1a145fcff090a90f1ce4263.bindPopup(popup_fec530213334e9fff119becb59d2d55d)
+        ;
+
+        
+    
+    
+            marker_c0080382e1a145fcff090a90f1ce4263.bindTooltip(
+                `<div>
+                     Carrizal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb092c0db41220072aed4e543e121749 = L.marker(
+                [29.61, -109.0203],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_f7dd9886df57cf0054dded0f8a754e03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b2052608bfce5eed5c799049013ee7e = $(`<div id="html_0b2052608bfce5eed5c799049013ee7e" style="width: 100.0%; height: 100.0%;">17: Village the gang passes through, they will return in a month and slaughter everyone in the area.  This first time, they get into a fight and kill and scalp 40 Mexicans</div>`)[0];
+                popup_f7dd9886df57cf0054dded0f8a754e03.setContent(html_0b2052608bfce5eed5c799049013ee7e);
+            
+        
+
+        marker_cb092c0db41220072aed4e543e121749.bindPopup(popup_f7dd9886df57cf0054dded0f8a754e03)
+        ;
+
+        
+    
+    
+            marker_cb092c0db41220072aed4e543e121749.bindTooltip(
+                `<div>
+                     Nacori (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de173e4705f480e3dba1fb39f1432258 = L.marker(
+                [29.0, -107.2],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_013768290deb03a77775d030f78b05e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d4800837cc8a40577ef4857290a7775 = $(`<div id="html_4d4800837cc8a40577ef4857290a7775" style="width: 100.0%; height: 100.0%;">18: Gang after killing Mexican soldiers hunts down the rest to prevent them from telling Chihuahua City.</div>`)[0];
+                popup_013768290deb03a77775d030f78b05e2.setContent(html_4d4800837cc8a40577ef4857290a7775);
+            
+        
+
+        marker_de173e4705f480e3dba1fb39f1432258.bindPopup(popup_013768290deb03a77775d030f78b05e2)
+        ;
+
+        
+    
+    
+            marker_de173e4705f480e3dba1fb39f1432258.bindTooltip(
+                `<div>
+                     site of battle with Mexican soldiers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_006a31fd8ab173d9fa3bf2a4a4aa0f12 = L.marker(
+                [28.6, -106.8],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_904e40ad5457705c10dee837e7dde439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52d908c02f0d61d510523f18a8346274 = $(`<div id="html_52d908c02f0d61d510523f18a8346274" style="width: 100.0%; height: 100.0%;">19: Gang debauches themselves until multiple shootouts break out, killing several members.</div>`)[0];
+                popup_904e40ad5457705c10dee837e7dde439.setContent(html_52d908c02f0d61d510523f18a8346274);
+            
+        
+
+        marker_006a31fd8ab173d9fa3bf2a4a4aa0f12.bindPopup(popup_904e40ad5457705c10dee837e7dde439)
+        ;
+
+        
+    
+    
+            marker_006a31fd8ab173d9fa3bf2a4a4aa0f12.bindTooltip(
+                `<div>
+                     Jesus Maria (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ac8e1fad616b17fcec4990616cdf86 = L.marker(
+                [29.433, -110.4034],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_8ef24a974f5eae293a958599e2821f2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80a1e3de513a0440a4091e386c5e386a = $(`<div id="html_80a1e3de513a0440a4091e386c5e386a" style="width: 100.0%; height: 100.0%;">20: Now Dec 2, 1849, gang gets another contract to hunt Apache.</div>`)[0];
+                popup_8ef24a974f5eae293a958599e2821f2e.setContent(html_80a1e3de513a0440a4091e386c5e386a);
+            
+        
+
+        marker_c4ac8e1fad616b17fcec4990616cdf86.bindPopup(popup_8ef24a974f5eae293a958599e2821f2e)
+        ;
+
+        
+    
+    
+            marker_c4ac8e1fad616b17fcec4990616cdf86.bindTooltip(
+                `<div>
+                     Ures
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7028432a435f45d3c4a44afa48818c8c = L.marker(
+                [29.7, -109.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_8f5549efe54b39d60a2b4a8059e35615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c25c508e946c1a3edaf25a031c10ab94 = $(`<div id="html_c25c508e946c1a3edaf25a031c10ab94" style="width: 100.0%; height: 100.0%;">21: Kid is chased and shot at by the Mexican army.</div>`)[0];
+                popup_8f5549efe54b39d60a2b4a8059e35615.setContent(html_c25c508e946c1a3edaf25a031c10ab94);
+            
+        
+
+        marker_7028432a435f45d3c4a44afa48818c8c.bindPopup(popup_8f5549efe54b39d60a2b4a8059e35615)
+        ;
+
+        
+    
+    
+            marker_7028432a435f45d3c4a44afa48818c8c.bindTooltip(
+                `<div>
+                     Mountains where snow is falling (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f3813c5ea771b691d1f764a90a10297 = L.marker(
+                [31.1211, -110.9443],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_4badaa40a8675327a0df1b8b2a3ea8b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6270f2643af77e1fba98e662b8370471 = $(`<div id="html_6270f2643af77e1fba98e662b8370471" style="width: 100.0%; height: 100.0%;">22: Quick overnight stay.</div>`)[0];
+                popup_4badaa40a8675327a0df1b8b2a3ea8b9.setContent(html_6270f2643af77e1fba98e662b8370471);
+            
+        
+
+        marker_4f3813c5ea771b691d1f764a90a10297.bindPopup(popup_4badaa40a8675327a0df1b8b2a3ea8b9)
+        ;
+
+        
+    
+    
+            marker_4f3813c5ea771b691d1f764a90a10297.bindTooltip(
+                `<div>
+                     Santa Cruz (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a37a3e9b8acae1a5cf960b08b4ad5118 = L.marker(
+                [31.5568, -111.0481],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_b698c757ed1f3c7d48eba4f9dbf8f83d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1ba70170b17750eb4cd4343c30722e8 = $(`<div id="html_a1ba70170b17750eb4cd4343c30722e8" style="width: 100.0%; height: 100.0%;">23: The finds two hermits, killing one.</div>`)[0];
+                popup_b698c757ed1f3c7d48eba4f9dbf8f83d.setContent(html_a1ba70170b17750eb4cd4343c30722e8);
+            
+        
+
+        marker_a37a3e9b8acae1a5cf960b08b4ad5118.bindPopup(popup_b698c757ed1f3c7d48eba4f9dbf8f83d)
+        ;
+
+        
+    
+    
+            marker_a37a3e9b8acae1a5cf960b08b4ad5118.bindTooltip(
+                `<div>
+                     San José de Tumacacori
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9d34c3a1d43358ef177c90e49b9ac84 = L.marker(
+                [32.2226, -110.9747],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_fdf4a29e03917003e28260a6c128a300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30f43c4bcb8ae77502b69080c22b856c = $(`<div id="html_30f43c4bcb8ae77502b69080c22b856c" style="width: 100.0%; height: 100.0%;">24: After encountering Apache and injuring a horse, the gang goes to Tucson for Whiskey and encounters the 'imbecile'.  The gang kills a barman, and a young girl is kidnapped and murdered (again, presumably by the judge)</div>`)[0];
+                popup_fdf4a29e03917003e28260a6c128a300.setContent(html_30f43c4bcb8ae77502b69080c22b856c);
+            
+        
+
+        marker_b9d34c3a1d43358ef177c90e49b9ac84.bindPopup(popup_fdf4a29e03917003e28260a6c128a300)
+        ;
+
+        
+    
+    
+            marker_b9d34c3a1d43358ef177c90e49b9ac84.bindTooltip(
+                `<div>
+                     Tucson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7ed921ff4d866e24fc6317f8f3af248 = L.marker(
+                [33.0, -115.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_7ee37f3395e910151e9919b4010bfd42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e073718d25981bf62c3c7cde4ffcf29 = $(`<div id="html_2e073718d25981bf62c3c7cde4ffcf29" style="width: 100.0%; height: 100.0%;">25: Gang conspires with Yuma to take the crossing, then betray and kill the Yuma, enslave Sonorans. Then Yuma finally annihilate the gang, including Glanton himself.</div>`)[0];
+                popup_7ee37f3395e910151e9919b4010bfd42.setContent(html_2e073718d25981bf62c3c7cde4ffcf29);
+            
+        
+
+        marker_a7ed921ff4d866e24fc6317f8f3af248.bindPopup(popup_7ee37f3395e910151e9919b4010bfd42)
+        ;
+
+        
+    
+    
+            marker_a7ed921ff4d866e24fc6317f8f3af248.bindTooltip(
+                `<div>
+                     Colorado River crossing point (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_142bae0104dc6b1763d11c00a0f9bc6d = L.marker(
+                [31.0, -116.0],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_3ea76b3f7b6382a73c022b4a1ffeefe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15f3485a156a56bb474ef4cf64cd14bf = $(`<div id="html_15f3485a156a56bb474ef4cf64cd14bf" style="width: 100.0%; height: 100.0%;">26: Kid and Tobin fight off the Apache, then encounter the judge and the imbecile.</div>`)[0];
+                popup_3ea76b3f7b6382a73c022b4a1ffeefe8.setContent(html_15f3485a156a56bb474ef4cf64cd14bf);
+            
+        
+
+        marker_142bae0104dc6b1763d11c00a0f9bc6d.bindPopup(popup_3ea76b3f7b6382a73c022b4a1ffeefe8)
+        ;
+
+        
+    
+    
+            marker_142bae0104dc6b1763d11c00a0f9bc6d.bindTooltip(
+                `<div>
+                     Alamo Mucho (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0869bcd44696ced79445de9e96c47fc = L.marker(
+                [31.02, -114.8366],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_096e89f5bccba858f805c318e000ca50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e816661efce502aa68cdf09772e7d87 = $(`<div id="html_6e816661efce502aa68cdf09772e7d87" style="width: 100.0%; height: 100.0%;">27: Campf of the Diegueño Indians, who feed the Kid and Tobin</div>`)[0];
+                popup_096e89f5bccba858f805c318e000ca50.setContent(html_6e816661efce502aa68cdf09772e7d87);
+            
+        
+
+        marker_d0869bcd44696ced79445de9e96c47fc.bindPopup(popup_096e89f5bccba858f805c318e000ca50)
+        ;
+
+        
+    
+    
+            marker_d0869bcd44696ced79445de9e96c47fc.bindTooltip(
+                `<div>
+                     San Felipe (estimated)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a49e30b03724d8dbcde66dbff05c105e = L.marker(
+                [32.7157, -117.1611],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_2f6acb6c75df14bb93c1cc36a57434bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fab2e7f2d2eb208f621f89a27154d35 = $(`<div id="html_6fab2e7f2d2eb208f621f89a27154d35" style="width: 100.0%; height: 100.0%;">28: Final stop for Kid and Tobin. Kid, arrested, converses with the Judge. Then he is released by bribing a corporal.</div>`)[0];
+                popup_2f6acb6c75df14bb93c1cc36a57434bf.setContent(html_6fab2e7f2d2eb208f621f89a27154d35);
+            
+        
+
+        marker_a49e30b03724d8dbcde66dbff05c105e.bindPopup(popup_2f6acb6c75df14bb93c1cc36a57434bf)
+        ;
+
+        
+    
+    
+            marker_a49e30b03724d8dbcde66dbff05c105e.bindTooltip(
+                `<div>
+                     San Diego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_967c07aac54027c52f010afe4d0a65a2 = L.marker(
+                [34.0522, -118.2437],
+                {"parseHtml": true}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+    
+        var popup_7f100ea8c726da5a9d70100cf3112b4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0df0b36208cd44e230988c4a6f0fa57f = $(`<div id="html_0df0b36208cd44e230988c4a6f0fa57f" style="width: 100.0%; height: 100.0%;">29: In his last scene as the Kid, Kid sees Toadvine and Davy Brown hanged. He buys Brown's ear necklace</div>`)[0];
+                popup_7f100ea8c726da5a9d70100cf3112b4e.setContent(html_0df0b36208cd44e230988c4a6f0fa57f);
+            
+        
+
+        marker_967c07aac54027c52f010afe4d0a65a2.bindPopup(popup_7f100ea8c726da5a9d70100cf3112b4e)
+        ;
+
+        
+    
+    
+            marker_967c07aac54027c52f010afe4d0a65a2.bindTooltip(
+                `<div>
+                     Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a30e2c1c48135f5a7ee9ff0c4c86da8c = L.polyline(
+                [[31.6035, -94.6554], [29.4241, -98.4936], [29.3551, -98.8786], [27.0, -101.707], [26.5, -103.0], [27.0, -103.5], [28.6353, -106.0889], [28.5, -106.8], [31.433, -108.3833], [32.7799, -106.3257], [33.0, -107.0], [31.7799, -106.0], [30.0, -107.0], [29.9119, -104.1551], [30.0, -106.0], [28.395, -105.3403], [29.61, -109.0203], [29.0, -107.2], [28.6, -106.8], [29.433, -110.4034], [29.7, -109.0], [31.1211, -110.9443], [31.5568, -111.0481], [32.2226, -110.9747], [33.0, -115.0], [31.0, -116.0], [31.02, -114.8366], [32.7157, -117.1611], [34.0522, -118.2437]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_da05c7da5dc80128e9a1836df5c0cb9b);
+        
+</script>
+</html>
